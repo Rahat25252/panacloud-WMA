@@ -1,89 +1,101 @@
-*{
+* {
   margin: 0;
   padding: 0;
-}.navbar {
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-  }
-  
-  .navbar-left a {
-    color: white;
-    font-size: 20px;
-    margin-right: 10px;
-  }
-  
-  .navbar-right a {
-    color: white;
-    font-size: 20px;
-    margin-right: 10px;
-  }
-  
-  .call-me-back {
-    background-color: yellowgreen;
-    color: black;
-    border: none;
-    padding: 10px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  .navba {
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-  }
-  
-  .navbar-left1 img {
-    height: 40px;
-    margin-right: 20px;
-  }
-  
-  .navbar-right1 a {
-    color: black;
-    font-size: 25px;
-    margin-left: 20px;
-    text-decoration: none;
 }
-.d-block w-100{
+
+.navbar {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar-left a {
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.navbar-right a {
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.call-me-back {
+  background-color: yellowgreen;
+  color: black;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.navba {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar-left1 img {
+  height: 40px;
+  margin-right: 20px;
+}
+
+.navbar-right1 a {
+  color: black;
+  font-size: 25px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.d-block w-100 {
   width: 3px;
   height: 3px;
 }
-h5{
+
+h5 {
   font-size: 84PX;
-  
+
 }
-p{
+
+p {
   font-size: 20PX;
 
 }
-.BTN{
-margin-bottom: 200px;
-font-size: 20px;
+
+.BTN {
+  margin-bottom: 200px;
+  font-size: 20px;
 }
-.BTN:hover{
+
+.BTN:hover {
   color: blue;
   background-color: aliceblue;
-  }
-.our-advantage h1{
-font-size: 40px;
-font-weight: 900px;
-text-align: center;
-margin-top: 20px;
 }
-.our-advantage span{
+
+.our-advantage h1 {
+  font-size: 40px;
+  font-weight: 900px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.our-advantage span {
   color: green;
 }
-.pra{
+
+.pra {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   font-weight: 15px;
 }
-.bulb{
+
+.bulb {
   width: 80px;
   height: 80px;
   border: solid;
@@ -93,7 +105,8 @@ margin-top: 20px;
   padding-top: 6px;
   font-size: 40px;
 }
-.thumb{
+
+.thumb {
   width: 80px;
   height: 80px;
   border: solid;
@@ -103,7 +116,8 @@ margin-top: 20px;
   padding-top: 6px;
   font-size: 40px;
 }
-.clock{
+
+.clock {
   width: 80px;
   height: 80px;
   border: solid;
@@ -113,7 +127,8 @@ margin-top: 20px;
   padding-top: 6px;
   font-size: 40px;
 }
-.team{
+
+.team {
   width: 80px;
   height: 80px;
   border: solid;
@@ -123,7 +138,8 @@ margin-top: 20px;
   padding-top: 6px;
   font-size: 40px;
 }
-.chat{
+
+.chat {
   width: 80px;
   height: 80px;
   border: solid;
@@ -133,22 +149,26 @@ margin-top: 20px;
   padding-top: 6px;
   font-size: 40px;
 }
-.icon{
+
+.icon {
   display: flex;
   justify-content: space-around
 }
-.heading{
+
+.heading {
   color: green;
   display: flex;
   justify-content: space-around;
   padding-top: 2px;
 }
-.para{
- font-family: Arial, Helvetica, sans-serif;
+
+.para {
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 15px;
   display: flex;
   justify-content: space-around;
 }
+
 .about-us-section {
   display: flex;
   flex-direction: row;
@@ -160,7 +180,7 @@ margin-top: 20px;
 }
 
 .about-heading {
-  
+
   margin-bottom: 400px;
 }
 
@@ -174,11 +194,11 @@ margin-top: 20px;
 }
 
 .about-heading-green {
-  color:green;
+  color: green;
 }
 
 .about-content {
-  margin-left: 20px; 
+  margin-left: 20px;
   max-width: 50%;
 }
 
@@ -189,8 +209,8 @@ margin-top: 20px;
 
 .read-more-button {
   padding: 10px 20px;
-  background-color:orange;
-  color:black;
+  background-color: orange;
+  color: black;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -198,7 +218,7 @@ margin-top: 20px;
 }
 
 .about-image {
-  margin-right: 50px; 
+  margin-right: 50px;
 }
 
 .about-image img {
@@ -206,4 +226,89 @@ margin-top: 20px;
   height: auto;
 }
 
+.our-services h1 {
+  font-size: 40px;
+  font-weight: 900px;
+  text-align: center;
+  margin-top: 20px;
+}
 
+.our-services span {
+  color: green;
+}
+
+.praS {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 15px;
+}
+
+.web-design {
+  width: 300px;
+  height: 300px;
+  border: solid;
+  background-color: lightgray;
+  border-color: lightgrey;
+}
+
+.star {
+  margin-left: 110px;
+  margin-top: 10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  border: solid;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 5px;
+  color: red;
+  background-color: orange;
+}
+
+.cards p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.btnS {
+  margin-left: 100px;
+  font-size: 20px;
+  color: green;
+  border-color: grey;
+  background-color: lightgray;
+  display: flex;
+}
+
+.graphic {
+  width: 300px;
+  height: 300px;
+  border: solid;
+  background-color: lightgray;
+  border-color: lightgrey;
+}
+.graphic h1{
+  font-size: 32px;
+
+}
+.branding {
+  width: 300px;
+  height: 300px;
+  border: solid;
+  background-color: lightgray;
+  border-color: lightgrey;
+}
+
+.marketing {
+  width: 300px;
+  height: 300px;
+  border: solid;
+  background-color: lightgray;
+  border-color: lightgrey;
+}
+
+.cards{
+  margin: 50px;
+  display: flex;
+  justify-content: space-around;
+}
